@@ -141,6 +141,7 @@ uvx pre-commit run --all-files
 
 uv run python -m cintel.continuous_intelligence_case
 uv run python -m cintel.continuous_intelligence_brandon
+uv run python -m cintel.continuous_intelligence_custom
 
 uv run ruff format .
 uv run ruff check . --fix
@@ -173,3 +174,19 @@ I also changed the data file and output file names to my own versions:
 `artifacts/system_assessment_brandon.csv`
 
 I made this change so the pipeline would use stricter monitoring settings and run from my own custom data and output files.
+
+## Custom Project
+
+I created a custom continuous intelligence project using `continuous_intelligence_custom.py`.
+
+This project reads system data from `data/system_metrics_custom.csv` and creates several monitoring signals, including error rate, average latency, rolling latency, health score, status, and latency trend.
+
+The project produces three main outputs:
+
+- `artifacts/system_monitoring_details_custom.csv`
+- `artifacts/system_assessment_custom.csv`
+- `artifacts/system_health_chart_custom.png`
+
+I changed `MAX_ERROR_RATE` from `0.05` to `0.03` and changed `MAX_AVG_LATENCY` from `40.0` to `30.0` to make the system more sensitive to warning conditions.
+
+This modification helped turn the example project into a more complete monitoring system by adding row level evaluation, rolling analysis, trend tracking, and a chart for easier interpretation.

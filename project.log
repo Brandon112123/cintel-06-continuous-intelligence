@@ -148,3 +148,77 @@
 2026-04-17 17:17:43 | INFO | P6 | Pipeline executed successfully!
 2026-04-17 17:17:43 | INFO | P6 | ========================
 2026-04-17 17:17:43 | INFO | P6 | END main()
+2026-04-17 17:57:24 | INFO | P6 | === RUN START ===
+2026-04-17 17:57:24 | INFO | P6 | project=CINTEL
+2026-04-17 17:57:24 | INFO | P6 | repo_dir=cintel-06-continuous-intelligence
+2026-04-17 17:57:24 | INFO | P6 | python=3.14.3
+2026-04-17 17:57:24 | INFO | P6 | os=Darwin 25.4.0
+2026-04-17 17:57:24 | INFO | P6 | shell=zsh
+2026-04-17 17:57:24 | INFO | P6 | cwd=.
+2026-04-17 17:57:24 | INFO | P6 | github_actions=False
+2026-04-17 17:57:24 | INFO | P6 | ========================
+2026-04-17 17:57:24 | INFO | P6 | START main()
+2026-04-17 17:57:24 | INFO | P6 | ========================
+2026-04-17 17:57:24 | INFO | P6 | ROOT_DIR = .
+2026-04-17 17:57:24 | INFO | P6 | DATA_FILE = data/system_metrics_custom.csv
+2026-04-17 17:57:24 | INFO | P6 | DETAIL_FILE = artifacts/system_monitoring_details_custom.csv
+2026-04-17 17:57:24 | INFO | P6 | SUMMARY_FILE = artifacts/system_assessment_custom.csv
+2026-04-17 17:57:24 | INFO | P6 | CHART_FILE = artifacts/system_health_chart_custom.png
+2026-04-17 17:58:32 | INFO | P6 | === RUN START ===
+2026-04-17 17:58:32 | INFO | P6 | project=CINTEL
+2026-04-17 17:58:32 | INFO | P6 | repo_dir=cintel-06-continuous-intelligence
+2026-04-17 17:58:32 | INFO | P6 | python=3.14.3
+2026-04-17 17:58:32 | INFO | P6 | os=Darwin 25.4.0
+2026-04-17 17:58:32 | INFO | P6 | shell=zsh
+2026-04-17 17:58:32 | INFO | P6 | cwd=.
+2026-04-17 17:58:32 | INFO | P6 | github_actions=False
+2026-04-17 17:58:32 | INFO | P6 | ========================
+2026-04-17 17:58:32 | INFO | P6 | START main()
+2026-04-17 17:58:32 | INFO | P6 | ========================
+2026-04-17 17:58:32 | INFO | P6 | ROOT_DIR = .
+2026-04-17 17:58:32 | INFO | P6 | DATA_FILE = data/system_metrics_custom.csv
+2026-04-17 17:58:32 | INFO | P6 | DETAIL_FILE = artifacts/system_monitoring_details_custom.csv
+2026-04-17 17:58:32 | INFO | P6 | SUMMARY_FILE = artifacts/system_assessment_custom.csv
+2026-04-17 17:58:32 | INFO | P6 | CHART_FILE = artifacts/system_health_chart_custom.png
+2026-04-17 17:58:32 | INFO | P6 | STEP 1. Loaded 20 system records
+2026-04-17 17:58:32 | INFO | P6 | STEP 2. Designing signals from raw metrics...
+2026-04-17 17:58:32 | INFO | P6 | STEP 3. Adding rolling latency and health score...
+2026-04-17 17:58:32 | INFO | P6 | STEP 4. Labeling each row with status and latency trend...
+2026-04-17 17:58:32 | INFO | P6 | STEP 5. Summarizing monitored system state...
+2026-04-17 17:58:32 | INFO | P6 | STEP 5. System assessment completed
+2026-04-17 17:58:32 | INFO | P6 | STEP 6. Wrote detail file: /Users/brandonsmith/Repos/cintel-06-continuous-intelligence/artifacts/system_monitoring_details_custom.csv
+2026-04-17 17:58:32 | INFO | P6 | STEP 6. Wrote summary file: /Users/brandonsmith/Repos/cintel-06-continuous-intelligence/artifacts/system_assessment_custom.csv
+2026-04-17 17:58:33 | INFO | P6 | STEP 7. Wrote chart file: /Users/brandonsmith/Repos/cintel-06-continuous-intelligence/artifacts/system_health_chart_custom.png
+2026-04-17 17:58:33 | INFO | P6 | ========================
+2026-04-17 17:58:33 | INFO | P6 | Pipeline executed successfully!
+2026-04-17 17:58:33 | INFO | P6 | ========================
+2026-04-17 17:58:33 | INFO | P6 | END main()
+2026-04-17 17:59:46 | INFO | P6 | === RUN START ===
+2026-04-17 17:59:46 | INFO | P6 | project=CINTEL
+2026-04-17 17:59:46 | INFO | P6 | repo_dir=cintel-06-continuous-intelligence
+2026-04-17 17:59:46 | INFO | P6 | python=3.14.3
+2026-04-17 17:59:46 | INFO | P6 | os=Darwin 25.4.0
+2026-04-17 17:59:46 | INFO | P6 | shell=zsh
+2026-04-17 17:59:46 | INFO | P6 | cwd=.
+2026-04-17 17:59:46 | INFO | P6 | github_actions=False
+2026-04-17 17:59:46 | INFO | P6 | ========================
+2026-04-17 17:59:46 | INFO | P6 | START main()
+2026-04-17 17:59:46 | INFO | P6 | ========================
+2026-04-17 17:59:46 | INFO | P6 | ROOT_DIR = .
+2026-04-17 17:59:46 | INFO | P6 | DATA_FILE = data/system_metrics_custom.csv
+2026-04-17 17:59:46 | INFO | P6 | DETAIL_FILE = artifacts/system_monitoring_details_custom.csv
+2026-04-17 17:59:46 | INFO | P6 | SUMMARY_FILE = artifacts/system_assessment_custom.csv
+2026-04-17 17:59:46 | INFO | P6 | CHART_FILE = artifacts/system_health_chart_custom.png
+2026-04-17 17:59:46 | INFO | P6 | STEP 1. Loaded 20 system records
+2026-04-17 17:59:46 | INFO | P6 | STEP 2. Designing signals from raw metrics...
+2026-04-17 17:59:46 | INFO | P6 | STEP 3. Adding rolling latency and health score...
+2026-04-17 17:59:46 | INFO | P6 | STEP 4. Labeling each row with status and latency trend...
+2026-04-17 17:59:46 | INFO | P6 | STEP 5. Summarizing monitored system state...
+2026-04-17 17:59:46 | INFO | P6 | STEP 5. System assessment completed
+2026-04-17 17:59:46 | INFO | P6 | STEP 6. Wrote detail file: /Users/brandonsmith/Repos/cintel-06-continuous-intelligence/artifacts/system_monitoring_details_custom.csv
+2026-04-17 17:59:46 | INFO | P6 | STEP 6. Wrote summary file: /Users/brandonsmith/Repos/cintel-06-continuous-intelligence/artifacts/system_assessment_custom.csv
+2026-04-17 17:59:46 | INFO | P6 | STEP 7. Wrote chart file: /Users/brandonsmith/Repos/cintel-06-continuous-intelligence/artifacts/system_health_chart_custom.png
+2026-04-17 17:59:46 | INFO | P6 | ========================
+2026-04-17 17:59:46 | INFO | P6 | Pipeline executed successfully!
+2026-04-17 17:59:46 | INFO | P6 | ========================
+2026-04-17 17:59:46 | INFO | P6 | END main()

@@ -1,0 +1,2 @@
+avg_requests,avg_errors,avg_error_rate,avg_latency_ms,avg_health_score,warning_count,system_state
+93.5,4.7,0.05274667535438989,35.134135418116344,38.492526904688695,13,DEGRADED
