@@ -140,6 +140,7 @@ git add -A
 uvx pre-commit run --all-files
 
 uv run python -m cintel.continuous_intelligence_case
+uv run python -m cintel.continuous_intelligence_brandon
 
 uv run ruff format .
 uv run ruff check . --fix
@@ -156,3 +157,19 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+
+## My Modification
+
+I created my own version of the continuous intelligence pipeline by copying the example file and renaming it from `continuous_intelligence_case.py` to `continuous_intelligence_brandon.py`.
+
+I made a simple technical modification by changing the monitoring thresholds:
+
+- `MAX_ERROR_RATE` from `0.05` to `0.04`
+- `MAX_AVG_LATENCY` from `40.0` to `35.0`
+
+I also changed the data file and output file names to my own versions:
+
+`data/system_metrics_brandon.csv`
+`artifacts/system_assessment_brandon.csv`
+
+I made this change so the pipeline would use stricter monitoring settings and run from my own custom data and output files.
